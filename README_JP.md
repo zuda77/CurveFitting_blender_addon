@@ -11,13 +11,17 @@ Blender ver.3.6
 
 ## インストール方法
 1.  最新のCurveFitting.zipを[release](https://github.com/zuda77/CurveFitting_blender_addon/releases)からダウンロードしてください。
-2.  Blenderを起動し、メインメニュー:Edit - Preferences...を選択すると、Preferencesウインドウが表示される。
+2.  Blenderを起動し、ヘッダーメニュー:Edit - Preferences...を選択すると、Preferencesウインドウが表示される。
 3.  PreferencesウインドウでAdd-onsボタンをクリックし、右上にあるInstall...ボタンをクリックするとファイルダイアログが表示される。
 4.  ファイルダイアログでCurveFitting.zipを選択すると、PreferencesウインドウのAdd-onsリストにCurveFittingが追加される。
 5.  Add-onsリストにCurveFittingにチェックマークを付けるとインストールが完了する。
 
 ##  使い方
+1.  並びを滑らかに整えたい頂点を選択します
+2.  右クリックでコンテキストメニューを開き、CurveFittingをクリックします。または、ヘッダーメニューVertex - Curve Fittingでも機能を呼び出すことができます。
+3.  スクリーン左下のプロパティパネルの
 
+![grafik](
 
 ## ツール
 
