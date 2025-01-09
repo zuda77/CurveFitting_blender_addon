@@ -1,4 +1,4 @@
-# CurveFitting_blender_addon
+# CurveFitting
 
 ## はじめに
 モデリングをしていると、頂点の並びが汚くなってしまうことがあります。  
@@ -10,7 +10,10 @@ Blender ver.3.6
 もし、動作しなかったり、エラーが発生する場合は[issues](https://github.com/zuda77/CurveFitting_blender_addon/issues)にご連絡ください。
 
 ## インストール方法
-1. 
+1.  最新のCurveFitting.zipを[release](https://github.com/zuda77/CurveFitting_blender_addon/releases)からダウンロードしてください。
+2.  Blenderを起動し、メインメニュー:Edit - Preferences...を選択すると、Preferencesウインドウが表示される。
+3.  PreferencesウインドウでAdd-onsボタンを押す。
+4.  
 
 #### Blender内での位置
 
