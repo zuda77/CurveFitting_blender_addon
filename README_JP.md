@@ -7,11 +7,10 @@ CurveFittingは汚くなった頂点の並びを滑らか整えてくれます�
 ## 動作環境
 Blender ver.3.6  
 で開発、動作確認をしています。その他のバージョンでも動作する可能性があります。  
-もし、動作しなかったり、エラーが発生する場合はご連絡ください。
-
+もし、動作しなかったり、エラーが発生する場合は[issues](https://github.com/zuda77/CurveFitting_blender_addon/issues)にご連絡ください。
 
 ## インストール方法
-
+1. 
 
 #### Blender内での位置
 
