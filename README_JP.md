@@ -25,7 +25,18 @@ Blender ver.3.6
 ![grafik](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/prop_2deg.PNG)
 
 ## 機能
+Curve Fittingは選択された頂点から算出した多項式近似曲線に頂点を移動します。
 
+#### - Curve Degree
+プロパティパネルのCurve Degreeは、多項式近所曲線の次数を設定します。
+次の表は次数を1から4まで変更したときの例を示します。
+
+|次数|頂点モデル|曲線イメージ|
+|:-:|:-:|:-:|
+|1|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/leaf_1deg.PNG" width="45%">|![grafik](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/curve_1deg.PNG)|
+|2|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/leaf_2deg.PNG" width="45%">|![grafik](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/curve_2deg.PNG)|
+|3|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/leaf_3deg.PNG" width="45%">|![grafik](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/curve_3deg.PNG)|
+|4|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/leaf_4deg.PNG" width="45%">|![grafik](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/curve_4deg.PNG)|
 
 
 
