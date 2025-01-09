@@ -2,11 +2,11 @@
 
 ## はじめに
 モデリングをしていると、頂点の並びが汚くなってしまうことがあります。  
-CurveFittingは汚くなった頂点の並びを滑らか整えてくれる、BlenderのAdd-onです。
+CurveFittingは元の形状は保ったまま、汚くなった頂点の並びを滑らか整えます。
 
 ## 動作環境
-Blender ver.3.6  
-で開発、動作確認をしています。その他のバージョンでも動作する可能性があります。  
+Blender ver.3.6 で開発、動作確認をしています。  
+その他のバージョンでも動作する可能性があります。  
 もし、動作しなかったり、エラーが発生する場合は[issues](https://github.com/zuda77/CurveFitting_blender_addon/issues)にご連絡ください。
 
 ## インストール方法
@@ -28,11 +28,13 @@ Blender ver.3.6
 Curve Fittingは選択された頂点から算出した多項式近似曲線に頂点を移動します。
 
 #### - Curve Degree
-プロパティパネルのCurve Degreeは、多項式近所曲線の次数を設定します。
+プロパティパネルのCurve Degreeは、多項式近所曲線の次数を設定します。  
+次数を大きくすると複雑な形状にフィッティングしますが、形の単純さは失われます。元の頂点列の形に合わせてお好みで調整してください。  
 次の表は次数を1から4まで変更したときの例を示します。
 
-|次数|頂点モデル|曲線イメージ|
+|Curve Degree|頂点モデル|曲線イメージ|
 |:-:|:-:|:-:|
+|処理前|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/before.PNG" width="45%">|-|
 |1|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/leaf_1deg.PNG" width="45%">|![grafik](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/curve_1deg.PNG)|
 |2|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/leaf_2deg.PNG" width="45%">|![grafik](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/curve_2deg.PNG)|
 |3|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/leaf_3deg.PNG" width="45%">|![grafik](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/curve_3deg.PNG)|
