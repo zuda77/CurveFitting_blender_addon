@@ -64,7 +64,7 @@ Curve Fitting のアルゴリズム
 </P>
 
 ## Note
-Curve Fittingのアルゴリズムは直交座標系のみを実装しているため、円や渦巻といった平面に射影したときに操作軸を決定できな場合、処理が失敗します。
+Curve Fittingのアルゴリズムは直交座標系のみを実装しているため、円や渦巻といった平面に射影したときに操作軸を決定できない場合、処理が失敗します。
 
 ## License
  "Curve Fitting"のライセンスは [MIT license](https://en.wikipedia.org/wiki/MIT_License).としています。
