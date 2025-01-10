@@ -40,7 +40,9 @@ Curve Fittingは選択された頂点から算出した多項式近似曲線上�
 |3|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/leaf_3deg.PNG" width="45%">|![grafik](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/curve_3deg.PNG)|
 |4|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/leaf_4deg.PNG" width="45%">|![grafik](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/curve_4deg.PNG)|
 
-
+  
+#### - Ends Weight
+選択された頂点列の開始点と終点を移動しないようにする数値です。デフォルト値10で、数値が大きくなるほど開始点と終点は移動しなくなります。最低値は1のときは、計算された近似曲線に従って開始点と終点が移動します。
 
 ## アルゴリズム
 
