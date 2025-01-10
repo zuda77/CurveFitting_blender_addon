@@ -7,7 +7,7 @@ CurveFittingは元の形状は保ったまま、汚くなった頂点の並び�
 ## 動作環境
 Blender ver.3.6 で開発、動作確認をしています。  
 その他のバージョンでも動作する可能性があります。  
-もし、動作しなかったり、エラーが発生する場合は[issues](https://github.com/zuda77/CurveFitting_blender_addon/issues)にご連絡ください。
+もし、動作に問題が発生する場合は[issues](https://github.com/zuda77/CurveFitting_blender_addon/issues)にご連絡ください。
 
 ## インストール方法
 1.  最新のCurveFitting.zipを[release](https://github.com/zuda77/CurveFitting_blender_addon/releases)からダウンロードしてください。
@@ -60,7 +60,7 @@ Curve Fittingのアルゴリズムは次の通りです。
 10.  P'(x',y',z')をBlenderに適用する。
 
 <p align="center">
-<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/algorithm.PNG" width="45%"> <br>
+<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/algorithm.PNG" width="80%"> <br>
 Curve Fitting のアルゴリズム
 </P>
 
