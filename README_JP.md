@@ -7,7 +7,6 @@ CurveFittingは元の形状は保ったまま、汚くなった頂点の並び�
 ## 動作環境
 Blender ver.3.6 で開発、動作確認をしています。  
 その他のバージョンでも動作する可能性があります。  
-もし、動作に問題が発生する場合は[issues](https://github.com/zuda77/CurveFitting_blender_addon/issues)にご連絡ください。
 
 ## インストール方法
 1.  最新のCurveFitting.zipを[release](https://github.com/zuda77/CurveFitting_blender_addon/releases)からダウンロードしてください。
@@ -64,8 +63,13 @@ Curve Fittingのアルゴリズムは次の通りです。
 Curve Fitting のアルゴリズム
 </P>
 
-## 開発者ノート
+## Note
+Curve Fittingのアルゴリズムは直交座標系のみを実装しているため、円や渦巻といった平面に射影したときに操作軸を決定できな場合、処理が失敗します。
 
-Blenderのエッジループ選択を再実装する必要がありました。エッジ選択をソートされたエッジループに変換する必要があったからです。Blenderの選択動作を再現できたのは良かったものの、通常のAPIで実現する方法を見落としている可能性があると感じています。アドバイスがあれば教えてください。
+## License
+ "Curve Fitting"のライセンスは [MIT license](https://en.wikipedia.org/wiki/MIT_License).としています。
+ 
+## Author
+* Zuda77
 
-複数のスプライン補間手法を試しましたが、[http://paulbourke.net/miscellaneous/interpolation/](http://paulbourke.net/miscellaneous/interpolation/) から得たHermite補間に落ち着きました。この補間は「Tension」という便利な変数を持っています。
+ご意見、ご要望、バグ報告は[issues](https://github.com/zuda77/CurveFitting_blender_addon/issues)にご連絡ください。
