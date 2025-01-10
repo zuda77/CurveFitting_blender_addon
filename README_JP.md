@@ -21,8 +21,10 @@ Blender ver.3.6 で開発、動作確認をしています。
 2.  右クリックでコンテキストメニューを開き、Curve Fittingをクリックします。または、ヘッダーメニューVertex - Curve Fittingでも機能を呼び出すことができます。
 3.  スクリーン左下のプロパティパネルのCurve Degreeの値を変えて、カーブをお好みに調整します。
 
-　　　　　プロパティパネル  
-![grafik](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/prop_2deg.PNG)
+<p align="center">
+<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/prop_2deg.PNG"> <br>
+プロパティパネル
+</P>
 
 ## 機能
 Curve Fittingは選択された頂点から算出した多項式近似曲線上に頂点を移動します。
@@ -45,7 +47,7 @@ Curve Fittingは選択された頂点から算出した多項式近似曲線上�
 選択された頂点列の開始点と終点を移動しづらくする数値です。デフォルト値10で、数値が大きくなるほど開始点と終点は移動しづらくなります。最低値は1のときは、計算された近似曲線に従って開始点と終点が移動します。
 
 ## アルゴリズム
-CurveFittingのアルゴリズムは次の通りです。
+Curve Fittingのアルゴリズムは次の通りです。
 
 1.  選択された頂点列をPとする。
 2.  Pを主成分分析する。得られた主成分ベクトル1,2,3をそれぞれi,j,k軸とする。
@@ -54,10 +56,13 @@ CurveFittingのアルゴリズムは次の通りです。
 6.  ij平面にPを射影し、近似曲線を最小二乗法で算出する。
 7.  Pの座標i対応する、変換後の座標j'を近似曲線から算出する。
 8.  座標k'を同様に算出する。更新された頂点列をP'(i,j',k')とする。
-9.  更新されたP'xyz座標に変換する。P'(i,j',k') -> P'(x',y',z')
+9.  更新されたP'をxyz座標に変換する。P'(i,j',k') -> P'(x',y',z')
 10.  P'(x',y',z')をBlenderに適用する。
 
-<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/algorithm.PNG" width="45%">
+<p align="center">
+<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/algorithm.PNG" width="45%"> <br>
+Curve Fitting のアルゴリズム
+</P>
 
 ## 開発者ノート
 
