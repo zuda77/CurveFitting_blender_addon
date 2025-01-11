@@ -42,7 +42,7 @@ The table below shows examples when the degree is changed from 1 to 4.
 | 4 | <img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/leaf_4deg.PNG" width="45%"> | ![Curve 4 Degree](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/curve_4deg.PNG) |
 
 #### - Ends Weight
-This value makes the start and end points of the selected vertices less likely to move. The default value is 10; the larger the value, the less the start and end points will move. At the minimum value of 1, the start and end points move according to the calculated approximation curve.
+This value makes the start and end points of the selected vertices less likely to move. The default value is 10; the larger the value make hard to move the start and end points. At the minimum value of 1, the start and end points move according to the calculated approximation curve.
 
 ## Algorithm
 The Curve Fitting algorithm follows these steps:
