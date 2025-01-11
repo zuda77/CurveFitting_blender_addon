@@ -71,4 +71,4 @@ The Curve Fitting algorithm is implemented only for orthogonal coordinate system
 ## Author
 * Zuda77
 
-For suggestions, requests, or bug reports, please contact us via [issues](https://github.com/zuda77/CurveFitting_blender_addon/issues).
+For suggestions, requests, or bug reports, please contact me via [issues](https://github.com/zuda77/CurveFitting_blender_addon/issues).
