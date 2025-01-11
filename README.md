@@ -42,18 +42,18 @@ The table below shows examples when the degree is changed from 1 to 4.
 | 4 | <img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/leaf_4deg.PNG" width="45%"> | ![Curve 4 Degree](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/curve_4deg.PNG) |
 
 #### - Ends Weight
-This value makes the start and end points of the selected vertices less likely to move. The default value is 10; the larger the value make hard to move the start and end points. At the minimum value of 1, the start and end points move according to the calculated approximation curve.
+This value makes the start and end points of the selected vertices less likely to move. The default value is 10; Larger values make moving the start and end points harder. At the minimum value of 1, the start and end points move according to the calculated approximation curve.
 
 ## Algorithm
 The Curve Fitting algorithm follows these steps:
 
-1. Define the selected vertex sequence as P (blue dots in the figure below).
+1. Define the selected vertex sequence as P (blue markers in the figure below).
 2. Perform principal component analysis (PCA) on P. Use the obtained principal components 1, 2, and 3 as the i, j, and k axes, respectively.
 3. Transform the xyz coordinates of P into ijk coordinates: P(x, y, z) -> P(i, j, k).
-4. Project P onto the i, j, and k axes, selecting the axis without overlaps as the operating axis. In the figure below, the operating axis is the i-axis.
+4. Project P onto the i, j, and k axes, selecting the axis without overlaps as the scan axis. In the figure below, the scan axis is the i-axis.
 5. Project P onto the ij plane and calculate the approximation curve using the least squares method.
-6. For each i-coordinate of P, calculate the corresponding j' from the approximation curve (orange dots in the figure).
-7. Similarly, calculate the k' coordinate (green dots in the figure). The updated vertex sequence is P'(i, j', k').
+6. For each i-coordinate of P, calculate the corresponding j' from the approximation curve (orange markers in the figure).
+7. Similarly, calculate the k' coordinate (green markers in the figure). The updated vertex sequence is P'(i, j', k').
 8. Transform the updated P' back into xyz coordinates: P'(i, j', k') -> P'(x', y', z').
 9. Apply P'(x', y', z') to Blender.
 
