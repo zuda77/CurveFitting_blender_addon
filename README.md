@@ -13,11 +13,11 @@ It may work with other versions as well.
 2. Launch Blender and select Edit -> Preferences... from the header menu to open the Preferences window.
 3. In the Preferences window, click the Add-ons button, then click the Install... button in the top right corner to open a file dialog.
 4. Select the CurveFitting.zip file in the file dialog. CurveFitting will be added to the Add-ons list in the Preferences window.
-5. Check the box next to CurveFitting in the Add-ons list to complete the installation.
+5. Mark a check-box for CurveFitting in the Add-ons list to enable the feature and complete the installation.
 
 ## Usage
 1. Select the vertices you want to smooth. Ensure the vertices are connected by edges.
-2. Open the context menu by right-clicking and select Curve Fitting. Alternatively, you can call the function via the header menu: Vertex -> Curve Fitting.
+2. Open the context menu by right-clicking and select "Curve Fitting". Alternatively, you can call the function via the header menu: Vertex -> Curve Fitting.
 3. Adjust the curve to your liking by changing the Curve Degree value in the property panel at the bottom left of the screen.
 
 <p align="center">
