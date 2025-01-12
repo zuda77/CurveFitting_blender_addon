@@ -66,7 +66,7 @@ Curve Fitting Algorithm
 The Curve Fitting algorithm is implemented only for orthogonal coordinate systems. Therefore, it fails in cases where an operating axis cannot be determined, such as when projecting onto a plane for circles or spirals.
 
 ## License
-"Curve Fitting" is licensed under the [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+"Curve Fitting" is licensed under the [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.html).
 
 ## Author
 * Zuda77
