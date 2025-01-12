@@ -5,7 +5,7 @@ While modeling with Blender, the arrangement of vertices can sometimes become me
 CurveFitting smooths out messy vertex arrangements while maintaining the original shape.
 
 ## Environment
-Developed and tested with Blender ver. 3.6.  
+Developed and tested with Blender v3.6 and v4.2.5.  
 It may work with other versions as well.
 
 ## Installation
