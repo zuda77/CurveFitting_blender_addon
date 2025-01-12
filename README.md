@@ -1,7 +1,7 @@
 # CurveFitting
 日本語の[README](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/README_JP.md)はこちら
 ## Introduction
-While modeling, the arrangement of vertices can sometimes become messy.  
+While modeling with blender, the arrangement of vertices can sometimes become messy.  
 CurveFitting smooths out messy vertex arrangements while maintaining the original shape.
 
 ## Environment
