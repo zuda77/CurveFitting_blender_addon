@@ -6,7 +6,7 @@ bl_info = {
     "version": (0, 1, 0),
     "blender": (3, 6, 0),
     "location": "Edit Mode > Vertex > Curve Fitting",
-    "description": "Perform PCA projection and fit selected vertices to a curve.",
+    "description": "Smooth out messy vertex arrangements while maintaining the original shape.",
     "warning": "",
     "tracker_url": "https://github.com/zuda77/CurveFitting_blender_addon/issues",
     "wiki_url": "https://github.com/zuda77/CurveFitting_blender_addon" ,
