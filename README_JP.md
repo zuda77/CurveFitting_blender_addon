@@ -5,8 +5,8 @@ Blenderでモデリングをしていると、頂点の並びが汚くなって�
 CurveFittingは元の形状は保ったまま、汚くなった頂点の並びを滑らか整えます。
 
 ## 動作環境
-CurveFitting V0.2 は Blender 4.2.5で開発、テストしています。その他のバージョンでも動作する可能性があります。  
-もし、Blender v3.6以前の場バージョンにインストールする場合は, CurveFitting V0.1.xを使用してください.
+Blender 4.2 以降 
+もし、Blender v3.6以前のバージョンにインストールする場合は, CurveFitting V0.1.xを使用してください.
 
 ## インストール方法
 1.  最新のCurveFitting.zipを[release](https://github.com/zuda77/CurveFitting_blender_addon/releases)からダウンロードしてください。
