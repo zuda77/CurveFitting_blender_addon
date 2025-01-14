@@ -6,7 +6,7 @@ CurveFitting smooths out messy vertex arrangements while maintaining the origina
 
 ## Environment
 Blender 4.2 and newer.      
-If you want to use CurveFitting in Blender 3.6 or earlier, please use CurveFitting V0.1.
+If you want to use CurveFitting in Blender 3.6 and earlier, please use CurveFitting V0.1.x.
 
 ## Installation
 1. Download the latest CurveFitting.zip from the [release](https://github.com/zuda77/CurveFitting_blender_addon/releases) page.
