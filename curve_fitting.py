@@ -128,7 +128,7 @@ class MESH_OT_process_vertices_with_curve_fitting(bpy.types.Operator):
     bl_idname = "mesh.curve_fitting"
     bl_label = "Curve Fitting"
     bl_options = {'REGISTER', 'UNDO'}
-    bl_description = "Fit selected vertices to an n-degree polynomial."
+    bl_description = "Smooth out messy vertex arrangements while maintaining the original shape."
 
     curve_degree: bpy.props.IntProperty(
         name="Curve Degree",
@@ -171,5 +171,3 @@ def unregister():
     bpy.types.VIEW3D_MT_edit_mesh_vertices.remove(menu_func)
     bpy.types.VIEW3D_MT_edit_mesh_context_menu.remove(menu_func)  # 削除
 
-#if __name__ == "__main__":
-#    register()
