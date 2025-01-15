@@ -3,7 +3,7 @@
 
 bl_info = {
     "name": "Curve Fitting Tool",
-    "description": "Smooth out uneven vertex arrangements keeping original shape",
+    "description": "Smooth out uneven vertex arrangements on the curve",
     "author": "zuda77",
     "version": (0, 2, 1),
     "blender": (4, 2, 0),
