@@ -154,16 +154,11 @@ class MESH_OT_process_vertices_with_curve_fitting(bpy.types.Operator):
 def menu_func(self, context):
     self.layout.operator(MESH_OT_process_vertices_with_curve_fitting.bl_idname)
 
-# 既存の右クリックメニュー項目の順番を制御するため、独自の関数を利用
-def prepend_to_context_menu(self, context):
-    # メニューの一番上にオペレーターを追加
-    self.layout.operator(MESH_OT_process_vertices_with_curve_fitting.bl_idname)
-
 # 登録
 def register():
     bpy.utils.register_class(MESH_OT_process_vertices_with_curve_fitting)
     bpy.types.VIEW3D_MT_edit_mesh_vertices.append(menu_func)
-    bpy.types.VIEW3D_MT_edit_mesh_context_menu.prepend(prepend_to_context_menu)  # prependで先頭に追加
+    bpy.types.VIEW3D_MT_edit_mesh_context_menu.prepend(menu_func)  # prependで先頭に追加
 
 # 解除
 def unregister():
