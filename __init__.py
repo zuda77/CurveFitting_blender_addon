@@ -4,7 +4,7 @@
 bl_info = {
     "name": "Curve Fitting Tool",
     "description": "Smooth out messy vertex arrangements while maintaining the original shape.",
-    "author": "Your Name",
+    "author": "zuda77",
     "version": (0, 2, 1),
     "blender": (4, 2, 0),
     "location": "View3D > Edit Mesh > Context Menu",
