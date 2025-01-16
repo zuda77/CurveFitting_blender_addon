@@ -128,7 +128,7 @@ class MESH_OT_process_vertices_with_curve_fitting(bpy.types.Operator):
     bl_idname = "mesh.curve_fitting"
     bl_label = "Curve Fitting"
     bl_options = {'REGISTER', 'UNDO'}
-    bl_description = "Smooth out messy vertex arrangements while maintaining the original shape."
+    bl_description = "Smooth out uneven vertex arrangements"
 
     curve_degree: bpy.props.IntProperty(
         name="Curve Degree",
