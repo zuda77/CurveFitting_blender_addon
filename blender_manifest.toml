@@ -3,7 +3,7 @@ schema_version = "1.0.0"
 # Example of manifest file for a Blender extension
 # Change the values according to your extension
 id = "CurveFitting"
-version = "0.2.0"
+version = "0.2.1"
 name = "Curve Fitting"
 tagline = "Smooth out uneven vertex arrangements keeping original shape"
 maintainer = "zuda77"
