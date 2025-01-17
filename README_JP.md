@@ -30,14 +30,14 @@ Blender 4.2 以降
 </P>
 
 ## 機能
-Curve Fittingは選択された頂点から算出した多項式近似曲線、または、多項式近似曲面上に頂点を移動します。
+Curve Fittingは選択された頂点から算出した多項式で近似された曲線、または、曲面上に頂点を移動します。
 
 #### - Curve Degree
 プロパティパネルのCurve Degreeは、多項式の次数を設定します。  
 次数を大きくすると複雑な形状にフィッティングしますが、形の単純さは失われます。元の頂点列の形に合わせてお好みで調整してください。  
 次の表は次数を1から4まで変更したときの例を示します。
 
-|Curve Degree|頂点モデル|曲線イメージ|
+|Curve Degree|頂点モデル<br>Curve|頂点モデル<br>Surface|曲線イメージ|
 |:-:|:-:|:-:|
 |処理前<br>元形状|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/before.PNG" width="45%">|-|
 |1|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/leaf_1deg.PNG" width="45%">|![grafik](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/curve_1deg.PNG)|
