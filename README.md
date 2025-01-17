@@ -55,14 +55,15 @@ The following table shows examples when changing the degree from 1 to 4:
 
 ## Algorithm
 ### Curve Fitting - Curve
-1. Treat the selected vertex sequence as points `P` (blue points in the diagram below).
-2. Perform PCA on `P` to obtain the principal component vectors 1, 2, and 3, assigning them to axes `i`, `j`, and `k` respectively.
-3. Convert `P`'s `xyz` coordinates to `ijk` coordinates: `P(x, y, z) -> P(i, j, k)`.
-4. Project the curve formed by connecting points in `P` onto the `i`, `j`, and `k` axes, and choose the axis with no overlaps as the traversal axis (e.g., `i` in the diagram below).
+1. Define the selected vertex sequence as `P` (blue markers in the figure below).
+2. Perform principal component analysis (PCA) on `P`. Use the obtained principal components 1, 2, and 3 as the `i`, `j`, and `k` axes, respectively.
+3. Transform the `xyz` coordinates of `P` into `ijk` coordinates: `P(x, y, z)` -> `P(i, j, k)`.
+4. Project `P` onto the `i`, `j`, and `k` axes, selecting the axis without overlaps as the scan axis. In the figure below, the scan axis is the `i`-axis.
 5. Project `P` onto the `ij` plane and calculate the approximation curve using the least squares method.
-6. Calculate the corresponding transformed `j'` and `k'` coordinates from the approximation curve (orange and green points in the diagram below).
-7. Update the vertex sequence to `P'(i, j', k')` and convert back to `xyz` coordinates: `P'(i, j', k') -> P'(x', y', z')`.
-8. Apply `P'(x', y', z')` to Blender.
+6. For each `i`-coordinate of `P`, calculate the corresponding `j'` from the approximation curve (orange markers in the figure).
+7. Similarly, calculate the `k'` coordinate (green markers in the figure). The updated vertex sequence is `P'(i, j', k')`.
+8. Transform the updated `P'` back into xyz coordinates: `P'(i, j', k') -> P'(x', y', z')`.
+9. Apply `P'(x', y', z')` to Blender.
 
 <p align="center">
 <img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/algorithm.PNG" width="80%"> <br>
