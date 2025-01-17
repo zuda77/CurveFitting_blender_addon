@@ -80,7 +80,7 @@ Curve Fitting - Curveのアルゴリズム
 10.  P'(x',y',z')をBlenderに適用する。
 
 <p align="center">
-<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/surface_fitting_algorithm.PNG" width="80%"> <br>
+<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/surface_fitting_algorithm.PNG" width="60%"> <br>
 Curve Fitting - Curveのアルゴリズム
 </P>
 
