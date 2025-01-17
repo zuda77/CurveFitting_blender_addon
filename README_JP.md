@@ -38,12 +38,12 @@ Curve Fittingは選択された頂点から算出した多項式で近似され�
 次の表は次数を1から4まで変更したときの例を示します。
 
 |Curve Degree|頂点モデル<br>Curve|頂点モデル<br>Surface|曲線イメージ|
-|:-:|:-:|:-:|
-|処理前<br>元形状|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/before.PNG" width="45%">|-|
-|1|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/leaf_1deg.PNG" width="45%">|![grafik](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/curve_1deg.PNG)|
-|2|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/leaf_2deg.PNG" width="45%">|![grafik](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/curve_2deg.PNG)|
-|3|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/leaf_3deg.PNG" width="45%">|![grafik](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/curve_3deg.PNG)|
-|4|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/leaf_4deg.PNG" width="45%">|![grafik](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/curve_4deg.PNG)|
+|:-:|:-:|:-:|:-:|
+|処理前<br>元形状|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/before.PNG" width="45%">|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/surf_before.PNG" width="45%">|-|
+|1|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/leaf_1deg.PNG" width="45%">|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/surf_1deg.PNG" width="45%">|![grafik](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/curve_1deg.PNG)|
+|2|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/leaf_2deg.PNG" width="45%">|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/surf_2deg.PNG" width="45%">|![grafik](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/curve_2deg.PNG)|
+|3|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/leaf_3deg.PNG" width="45%">|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/surf_3deg.PNG" width="45%">|![grafik](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/curve_3deg.PNG)|
+|4|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/leaf_4deg.PNG" width="45%">|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/surf_4deg.PNG" width="45%">|![grafik](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/curve_4deg.PNG)|
 
   
 #### - Ends Weight
