@@ -16,12 +16,13 @@ Blender 4.2 以降
 4.  ファイルダイアログでCurveFitting.zipを選択すると、PreferencesウインドウのAdd-onsリストにCurveFittingが追加されます。
 5.  Add-onsリストにCurveFittingにチェックマークを付けるとインストールが完了します。
 ### Blender Extensionから
-1.  [Blender Extension](https://extensions.blender.org/add-ons/curvefitting/)サイト上の"Get add-on"ボタンを押します。
+1.  [Blender Extension](https://extensions.blender.org/add-ons/curvefitting/)サイト上の"Get add-on"ボタンをクリックしてください。
 
 ##  使い方
-1.  並びを滑らかに整えたい頂点を選択します。このとき、頂点はedgeで結合されている必要があります。
-2.  右クリックでコンテキストメニューを開き、Curve Fittingをクリックします。または、ヘッダーメニューVertex - Curve Fittingでも機能を呼び出すことができます。
-3.  スクリーン左下のプロパティパネルのCurve Degreeの値を変えて、カーブをお好みに調整します。
+1.  並びを滑らかに整えたい頂点を選択します。このとき、頂点はedge、または、faceで結合されている必要があります。
+2.  右クリックでコンテキストメニューを開き、Curve Fitting -> Curveをクリックすると曲線に、Curve Fitting -> Surfaceは曲面に対して処理されます。
+3.  ヘッダーメニューVertex - Curve Fittingでも同様に機能を呼び出すことができます。
+5.  スクリーン左下のプロパティパネルのCurve Degreeの値を変えて、カーブや面形状をお好みに調整します。
 
 <p align="center">
 <img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/prop_2deg.PNG"> <br>
@@ -29,10 +30,10 @@ Blender 4.2 以降
 </P>
 
 ## 機能
-Curve Fittingは選択された頂点から算出した多項式近似曲線上に頂点を移動します。
+Curve Fittingは選択された頂点から算出した多項式近似曲線、または、多項式近似曲面上に頂点を移動します。
 
 #### - Curve Degree
-プロパティパネルのCurve Degreeは、多項式近所曲線の次数を設定します。  
+プロパティパネルのCurve Degreeは、多項式の次数を設定します。  
 次数を大きくすると複雑な形状にフィッティングしますが、形の単純さは失われます。元の頂点列の形に合わせてお好みで調整してください。  
 次の表は次数を1から4まで変更したときの例を示します。
 
