@@ -2,18 +2,21 @@
 
 ## はじめに
 Blenderでモデリングをしていると、頂点の並びが汚くなってしまうことがあります。  
-CurveFittingは元の曲線形状は保ったまま、曲線上の頂点の汚い並びを滑らか整えます。
+CurveFittingは元の形状は保ったまま、頂点の汚い並びを滑らか整えます。
 
 ## 動作環境
 Blender 4.2 以降  
 もし、Blender v3.6以前のバージョンにインストールする場合は, CurveFitting V0.1.xを使用してください.
 
 ## インストール方法
+### Githubから
 1.  最新のCurveFitting.zipを[release](https://github.com/zuda77/CurveFitting_blender_addon/releases)からダウンロードしてください。
 2.  Blenderを起動し、ヘッダーメニュー:Edit - Preferences...を選択すると、Preferencesウインドウが表示されます。
 3.  PreferencesウインドウでAdd-onsボタンをクリックし、右上にあるInstall...ボタンをクリックするとファイルダイアログが表示されます。
 4.  ファイルダイアログでCurveFitting.zipを選択すると、PreferencesウインドウのAdd-onsリストにCurveFittingが追加されます。
 5.  Add-onsリストにCurveFittingにチェックマークを付けるとインストールが完了します。
+### Blender Extensionから
+1.  [Blender Extension](https://extensions.blender.org/add-ons/curvefitting/)サイト上の"Get add-on"ボタンを押します。
 
 ##  使い方
 1.  並びを滑らかに整えたい頂点を選択します。このとき、頂点はedgeで結合されている必要があります。
