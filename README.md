@@ -71,11 +71,11 @@ Curve Fitting - Curve Algorithm
 </p>
 
 ### Curve Fitting - Surface
-1. Treat the selected vertices as a point cloud `P` (blue points in the diagram below).
+1. Define the selected vertices as points `P` (blue markers in the figure below).
 2. Compute the average position of `P` as point `C`.
 3. Define the set of faces including `P` as `S`.
-4. Calculate the average normal vector of `S` as vector `k`.
-5. Define plane `T` passing through `C` with `k` as its normal vector. Construct vectors `i` and `j` orthogonal to `k` and to each other. In this implementation, project `P` onto `T` and define `i` as the vector from `C` to the farthest projected point. Calculate `j` as the cross product of `i` and `k`.
+4. Calculate the average normal vector `k` from the normal vectors `S`.
+5. Define plane `T` passing through `C` with normal vector　`k`. Construct vectors `i` and `j` orthogonal to `k` and to each other. In this implementation, project `P` onto `T` and define `i` as the vector from `C` to the farthest projected point. Calculate `j` as the cross product of `i` and `k`.
 6. Convert `P`'s `xyz` coordinates to `ijk` coordinates: `P(x, y, z) -> P(i, j, k)`.
 7. Approximate the surface as `k' = F(i, j)` using the least squares method.
 8. Update vertex positions to `P'(i, j, k')` and convert back to `xyz` coordinates: `P'(i, j, k') -> P'(x', y', z')`.
