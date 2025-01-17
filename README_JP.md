@@ -52,7 +52,7 @@ Surfaceの場合は、選択された頂点をメンバーとする面集合の�
 数値が大きくなるほど開始点と終点は移動しづらくなります。最低値は1のときは、計算された近似曲線に従って開始点と終点が移動します。
 
 ## アルゴリズム
-Curve Fittingのアルゴリズムは次の通りです。
+### Curve Fitting - Curve
 
 1.  選択された頂点列をPとする。(下図 青色の点)
 2.  Pを主成分分析する。得られた主成分ベクトル1,2,3をそれぞれi,j,k軸とする。
@@ -66,7 +66,22 @@ Curve Fittingのアルゴリズムは次の通りです。
 
 <p align="center">
 <img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/algorithm.PNG" width="80%"> <br>
-Curve Fitting のアルゴリズム
+Curve Fitting - Curveのアルゴリズム
+</P>
+### Curve Fitting - Surfase
+1.  選択された頂点列をPとする。(下図 青色の点)
+2.  Pを主成分分析する。得られた主成分ベクトル1,2,3をそれぞれi,j,k軸とする。
+3.  Pのxyz座標をijk座標に変換する。P(x,y,z) -> P(i,j,k)
+5.  Pの各点を結んで作る曲線をi,j,k軸に射影したとき、重なりがない軸を走査軸とする。下図において操作軸はi軸となる。
+6.  ij平面にPを射影し、近似曲線を最小二乗法で算出する。
+7.  Pの座標i対応する、変換後の座標j'を近似曲線から算出する(下図 オレンジ色の点)。
+8.  座標k'を同様に算出する(下図 緑色の点)。更新された頂点列をP'(i,j',k')とする。
+9.  更新されたP'をxyz座標に変換する。P'(i,j',k') -> P'(x',y',z')
+10.  P'(x',y',z')をBlenderに適用する。
+
+<p align="center">
+<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/surface_fitting_algorithm.PNG" width="80%"> <br>
+Curve Fitting - Curveのアルゴリズム
 </P>
 
 ## Note
