@@ -83,7 +83,7 @@ Curve Fitting - Curveのアルゴリズム
 
 <p align="center">
 <img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/surface_fitting_algorithm2.PNG" width="40%"> <br>
-Curve Fitting - Curveのアルゴリズム
+Curve Fitting - Surfaceのアルゴリズム
 </P>
 
 ## Note
