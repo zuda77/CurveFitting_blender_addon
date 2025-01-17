@@ -10,10 +10,10 @@ Blender 4.2 以降
 
 ## インストール方法
 ### Githubから
-1.  最新のCurveFitting.zipを[release](https://github.com/zuda77/CurveFitting_blender_addon/releases)からダウンロードしてください。
+1.  最新のcurve_fitting.zipを[release](https://github.com/zuda77/CurveFitting_blender_addon/releases)からダウンロードしてください。
 2.  Blenderを起動し、ヘッダーメニュー:Edit - Preferences...を選択すると、Preferencesウインドウが表示されます。
 3.  PreferencesウインドウでAdd-onsボタンをクリックし、右上にあるInstall...ボタンをクリックするとファイルダイアログが表示されます。
-4.  ファイルダイアログでCurveFitting.zipを選択すると、PreferencesウインドウのAdd-onsリストにCurveFittingが追加されます。
+4.  ファイルダイアログでcurve_fitting.zipを選択すると、PreferencesウインドウのAdd-onsリストにCurveFittingが追加されます。
 5.  Add-onsリストにCurveFittingにチェックマークを付けるとインストールが完了します。
 ### Blender Extensionから
 1.  [Blender Extension](https://extensions.blender.org/add-ons/curvefitting/)サイト上の"Get add-on"ボタンをクリックしてください。
