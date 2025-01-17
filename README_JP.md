@@ -46,8 +46,10 @@ Curve Fittingは選択された頂点から算出した多項式で近似され�
 |4|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/leaf_4deg.PNG" width="45%">|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/surf_4deg.PNG" width="45%">|![grafik](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/curve_4deg.PNG)|
 
   
-#### - Ends Weight
-選択された頂点列の開始点と終点を移動しづらくする数値です。デフォルト値10で、数値が大きくなるほど開始点と終点は移動しづらくなります。最低値は1のときは、計算された近似曲線に従って開始点と終点が移動します。
+#### - border Weight
+Curveの場合は、選択された頂点列の開始点と終点を移動しにくくする数値です。デフォルト値10です。 
+Surfaceの場合は、選択された頂点をメンバーとする面集合の外周にある点を移動しにくくする数値です。デフォルト値は1です。  
+数値が大きくなるほど開始点と終点は移動しづらくなります。最低値は1のときは、計算された近似曲線に従って開始点と終点が移動します。
 
 ## アルゴリズム
 Curve Fittingのアルゴリズムは次の通りです。
