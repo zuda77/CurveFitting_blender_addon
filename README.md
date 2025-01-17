@@ -14,13 +14,13 @@ If you want to use CurveFitting in Blender 3.6 and earlier, please use CurveFitt
 2. Launch Blender and navigate to the header menu: Edit -> Preferences...
 3. In the Preferences window, click the "Add-ons" button and then the "Install..." button in the top-right corner to open a file dialog.
 4. Select the downloaded `curve_fitting.zip` file. CurveFitting will then appear in the Add-ons list.
-5. Enable CurveFitting in the Add-ons list by checking the box next to it.
+5. Mark a check-box for CurveFitting in the Add-ons list to enable the feature and complete the installation.
 
 ### From Blender Extension
 1. Click the "Get add-on" button on the [Blender Extension](https://extensions.blender.org/add-ons/curvefitting/) website.
 
 ## Usage
-1. Select the vertices you want to smooth and organize. Ensure the vertices are connected by edges or faces.
+1. Select the vertices you want to smooth. Ensure the vertices are connected by edges or faces.
 2. Open the context menu by right-clicking and select "Curve Fitting -> Curve" for curves or "Curve Fitting -> Surface" for surfaces.
 3. Alternatively, you can access the functions via the header menu: Vertex -> Curve Fitting.
 4. Adjust the "Curve Degree" value in the properties panel at the bottom-left of the screen to fine-tune the shape of curves or surfaces to your preference.
@@ -35,7 +35,8 @@ CurveFitting moves vertices onto a curve or surface approximated by a polynomial
 
 #### - Curve Degree
 "Curve Degree" in the properties panel sets the degree of the polynomial. 
-Increasing the degree fits more complex shapes but may lose simplicity. Adjust according to the original vertex arrangement.
+Higher degrees allow for fitting more complex shapes, but the simplicity of the shape is lost. Adjust this value according to the shape of the original vertex arrangement.  
+The table below shows examples when the degree is changed from 1 to 4.
 
 The following table shows examples when changing the degree from 1 to 4:
 
@@ -49,12 +50,12 @@ The following table shows examples when changing the degree from 1 to 4:
 
 #### - Border Weight
 - For Curves: Adjusts the immovability of the start and end points of the selected vertex sequence. The default value is 10.
-- For Surfaces: Adjusts the immovability of points on the boundary of the face set that includes the selected vertices. The default value is 1.
+- For Surfaces: Adjusts the immovability of points on the boundary of the faces set that includes the selected vertices. The default value is 1.
 - Larger values make the start and end points harder to move. The minimum value of 1 allows points to move according to the calculated approximation.
 
 ## Algorithm
 ### Curve Fitting - Curve
-1. Treat the selected vertex sequence as a point cloud `P` (blue points in the diagram below).
+1. Treat the selected vertex sequence as points `P` (blue points in the diagram below).
 2. Perform PCA on `P` to obtain the principal component vectors 1, 2, and 3, assigning them to axes `i`, `j`, and `k` respectively.
 3. Convert `P`'s `xyz` coordinates to `ijk` coordinates: `P(x, y, z) -> P(i, j, k)`.
 4. Project the curve formed by connecting points in `P` onto the `i`, `j`, and `k` axes, and choose the axis with no overlaps as the traversal axis (e.g., `i` in the diagram below).
