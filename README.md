@@ -25,7 +25,7 @@ If you want to use CurveFitting in Blender 3.6 and earlier, please use CurveFitt
 3. Adjust the "Curve Degree" value in the properties panel at the bottom-left of the screen to fine-tune the shape of curves or surfaces to your preference.
 
 <p align="center">
-<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/property_panel2.PNG"> <br>
+<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/property_panel.PNG"> <br>
 Properties Panel
 </p>
 
@@ -50,7 +50,7 @@ The following table shows examples when changing the degree from 1 to 4:
 - Larger values make the start and end points harder to move. The minimum value of 1 allows points to move according to the calculated approximation.
 
 <p align="center">
-<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/ends_points.PNG" width="50%"> <br>
+<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/ends_points.PNG" width="60%"> <br>
 Ends weight points on the curve AND RIGHT
 </P>
 
@@ -59,7 +59,7 @@ Ends weight points on the curve AND RIGHT
 - Larger values make the start and end points harder to move. The minimum value of 1 allows points to move according to the calculated approximation.
 
 <p align="center">
-<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/boder_points.PNG" width="50%"> <br>
+<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/boder_points.PNG" width="60%"> <br>
 Border weight points on the surfase
 </P>
 
