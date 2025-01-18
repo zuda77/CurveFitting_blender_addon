@@ -56,7 +56,7 @@ Ends weight points on the curve
 
 #### - border Weight
 Surfaceの選択された頂点をメンバーとする面集合の外周にある点を移動しにくくする数値です。デフォルト値は1です。  
-数値が大きくなるほど開始点と終点は移動しにくくなります。最低値は1のときは、計算された近似曲線に従って開始点と終点が移動します。
+数値が大きくなるほど開始点と終点は移動しにくくなります。最低値は1のときは、計算された近似曲面に従って開始点と終点が移動します。
 
 <p align="center">
 <img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/boder_points.PNG" width="25%"> <br>
