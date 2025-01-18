@@ -9,14 +9,14 @@ Blender 4.2 and newer.
 If you want to use CurveFitting in Blender 3.6 and earlier, please use CurveFitting V0.1.x.
 
 ## Installation
-### From Github
+#### From Github
 1. Download the latest `curve_fitting.zip` from the [release page](https://github.com/zuda77/CurveFitting_blender_addon/releases).
 2. Launch Blender and navigate to the header menu: Edit -> Preferences...
 3. In the Preferences window, click the "Add-ons" button and then the "Install..." button in the top-right corner to open a file dialog.
 4. Select the downloaded `curve_fitting.zip` file. CurveFitting will then appear in the Add-ons list.
 5. Mark a check-box for CurveFitting in the Add-ons list to enable the feature and complete the installation.
 
-### From Blender Extension
+#### From Blender Extension
 1. Click the "Get add-on" button on the [Blender Extension](https://extensions.blender.org/add-ons/curvefitting/) website.
 
 ## Usage
@@ -64,7 +64,7 @@ Border weight points on the surfase
 </P>
 
 ## Algorithm
-### Curve Fitting - Curve
+#### Curve Fitting - Curve
 1. Define the selected vertex sequence as `P` (blue markers in the figure below).
 2. Perform principal component analysis (PCA) on `P`. Use the obtained principal components 1, 2, and 3 as the `i`, `j`, and `k` axes, respectively.
 3. Transform the `xyz` coordinates of `P` into `ijk` coordinates: `P(x, y, z)` -> `P(i, j, k)`.
@@ -80,7 +80,7 @@ Border weight points on the surfase
 Algorithm for curve
 </p>
 
-### Curve Fitting - Surface
+#### Curve Fitting - Surface
 1. Define the selected vertices as points `P` (blue markers in the figure below).
 2. Compute the average position of `P` as point `C`.
 3. Define the set of faces including `P` as `S`.
