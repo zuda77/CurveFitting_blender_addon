@@ -2,7 +2,7 @@
 日本語の[README](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/README_JP.md)はこちら
 ## Introduction
 When modeling in Blender, vertex arrangements can sometimes become uneven. 
-CurveFitting smooths the uneven arrangements of vertices while preserving the original shape.
+CurveFitting smooths the uneven arrangements of vertices while maintaining the original shape.
 
 ## System Requirements
 Blender 4.2 and newer.      
