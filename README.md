@@ -46,7 +46,7 @@ The following table shows examples when changing the degree from 1 to 4:
 |4|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/leaf_4deg.PNG" width="45%">|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/surf_4deg2.PNG" width="45%">|![grafik](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/curve_4deg.PNG)|
 
 #### - Ends Weight
-- For Curves: Adjusts the immovability of the start and end points of the selected vertex sequence. The default value is 10.
+- For Curves. Adjusts the immovability of the start and end points of the selected vertex sequence. The default value is 10.
 - Larger values make the start and end points harder to move. The minimum value of 1 allows points to move according to the calculated approximation.
 
 <p align="center">
@@ -55,7 +55,7 @@ Ends weight points on the curve
 </P>
 
 #### - Border Weight
-- For Surfaces: Adjusts the immovability of points on the boundary of the faces set that includes the selected vertices. The default value is 1.
+- For Surfaces. Adjusts the immovability of points on the boundary of the faces set that includes the selected vertices. The default value is 1.
 - Larger values make the start and end points harder to move. The minimum value of 1 allows points to move according to the calculated approximation.
 
 <p align="center">
