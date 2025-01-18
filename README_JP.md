@@ -48,6 +48,12 @@ Curve Fittingは選択された頂点から算出した多項式で近似され�
 Curveの選択された頂点列の開始点と終点を移動しにくくする数値です。デフォルト値10です。  
 数値が大きくなるほど開始点と終点は移動しにくくなります。最低値は1のときは、計算された近似曲線に従って開始点と終点が移動します。
 
+<p align="center">
+<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/ends_points.PNG" width="25%"> <br>
+Ends weight points on the curve
+</P>
+
+
 #### - border Weight
 Surfaceの選択された頂点をメンバーとする面集合の外周にある点を移動しにくくする数値です。デフォルト値は1です。  
 数値が大きくなるほど開始点と終点は移動しにくくなります。最低値は1のときは、計算された近似曲線に従って開始点と終点が移動します。
