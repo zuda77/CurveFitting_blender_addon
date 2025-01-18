@@ -20,12 +20,12 @@ Blender 4.2 以降
 
 ##  使い方
 1.  並びを滑らかに整えたい頂点を選択します。このとき、頂点はedge、または、faceで結合されている必要があります。
-2.  右クリックでコンテキストメニューを開き、Curve Fitting -> Curveをクリックすると曲線に、Curve Fitting -> Surfaceは曲面に対して処理されます。
+2.  右クリックでコンテキストメニューを開き、Curve Fittingくりっくす。
 3.  ヘッダーメニューVertex - Curve Fittingでも同様に機能を呼び出すことができます。
 5.  スクリーン左下のプロパティパネルのCurve Degreeの値を変えて、カーブや面形状をお好みに調整します。
 
 <p align="center">
-<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/prop_2deg.PNG"> <br>
+<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/property_panel.PNG"> <br>
 プロパティパネル
 </P>
 
