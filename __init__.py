@@ -2,10 +2,10 @@
 
 
 bl_info = {
-    "name": "Curve Fitting Tool",
+    "name": "Curve Fitting",
     "description": "Smooth out uneven vertex arrangements on the curve",
     "author": "zuda77",
-    "version": (0, 2, 1),
+    "version": (0, 3, 0),
     "blender": (4, 2, 0),
     "location": "View3D > Edit Mesh > Context Menu",
     "category": "Mesh",
@@ -32,7 +32,7 @@ class AddonPreferences(bpy.types.AddonPreferences):
 
     def draw(self, context):
         layout = self.layout
-        layout.label(text="Default Settings for Curve Fitting Tool:")
+        layout.label(text="Default Settings for Curve Fitting:")
         layout.prop(self, "default_curve_degree")
         layout.prop(self, "default_ends_weight")
 
