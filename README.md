@@ -21,12 +21,11 @@ If you want to use CurveFitting in Blender 3.6 and earlier, please use CurveFitt
 
 ## Usage
 1. Select the vertices you want to smooth. Ensure the vertices are connected by edges or faces.
-2. Open the context menu by right-clicking and select "Curve Fitting -> Curve" for curves or "Curve Fitting -> Surface" for surfaces.
-3. Alternatively, you can access the functions via the header menu: Vertex -> Curve Fitting.
-4. Adjust the "Curve Degree" value in the properties panel at the bottom-left of the screen to fine-tune the shape of curves or surfaces to your preference.
+2. Open the context menu by right-clicking and select "Curve Fitting". Alternatively, you can call the function via the header menu: Vertex -> Curve Fitting.
+3. Adjust the "Curve Degree" value in the properties panel at the bottom-left of the screen to fine-tune the shape of curves or surfaces to your preference.
 
 <p align="center">
-<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/prop_2deg.PNG"> <br>
+<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/property_panel2.PNG"> <br>
 Properties Panel
 </p>
 
@@ -36,8 +35,6 @@ CurveFitting moves vertices onto a curve or surface approximated by a polynomial
 #### - Curve Degree
 "Curve Degree" in the properties panel sets the degree of the polynomial. 
 Higher degrees allow for fitting more complex shapes, but the simplicity of the shape is lost. Adjust this value according to the shape of the original vertex arrangement.  
-The table below shows examples when the degree is changed from 1 to 4.
-
 The following table shows examples when changing the degree from 1 to 4:
 
 |Curve Degree|Vertex Model<br>Curve|Vertex Model<br>Surface|Curve Image|
@@ -48,10 +45,18 @@ The following table shows examples when changing the degree from 1 to 4:
 |3|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/leaf_3deg.PNG" width="45%">|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/surf_3deg2.PNG" width="45%">|![grafik](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/curve_3deg.PNG)|
 |4|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/leaf_4deg.PNG" width="45%">|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/surf_4deg2.PNG" width="45%">|![grafik](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/curve_4deg.PNG)|
 
-#### - Border Weight
+#### - Ends Weight
 - For Curves: Adjusts the immovability of the start and end points of the selected vertex sequence. The default value is 10.
+- Larger values make the start and end points harder to move. The minimum value of 1 allows points to move according to the calculated approximation.
+- 
+#### - Border Weight
 - For Surfaces: Adjusts the immovability of points on the boundary of the faces set that includes the selected vertices. The default value is 1.
 - Larger values make the start and end points harder to move. The minimum value of 1 allows points to move according to the calculated approximation.
+
+<p align="center">
+<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/ends_border_points2.PNG" width="50%"> <br>
+LEFT Fig.:Ends weight points on the curve AND RIGHT Fig. Border weight points on the surfase
+</P>
 
 ## Algorithm
 ### Curve Fitting - Curve
