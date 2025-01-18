@@ -67,7 +67,7 @@ The following table shows examples when changing the degree from 1 to 4:
 
 <p align="center">
 <img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/algorithm.PNG" width="80%"> <br>
-Curve Fitting - Curve Algorithm
+Algorithm for curve
 </p>
 
 ### Curve Fitting - Surface
@@ -83,7 +83,7 @@ Curve Fitting - Curve Algorithm
 
 <p align="center">
 <img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/surface_fitting_algorithm2.PNG" width="40%"> <br>
-Curve Fitting - Surface Algorithm
+Algorithm for surfase
 </p>
 
 ## Note
