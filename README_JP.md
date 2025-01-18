@@ -53,7 +53,7 @@ Surfaceの選択された頂点をメンバーとする面集合の外周にあ�
 数値が大きくなるほど開始点と終点は移動しにくくなります。最低値は1のときは、計算された近似曲線に従って開始点と終点が移動します。
 
 <p align="center">
-<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/ends_border_points2.PNG"> <br>
+<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/ends_border_points2.PNG" width="70%"> <br>
 LEFT Fig.:Ends weight points on the curve AND RIGHT Fig. Border weight points on the surfase
 </P>
 
@@ -88,7 +88,7 @@ Curve Fitting - Curveのアルゴリズム
 10.  P'(x',y',z')をBlenderに適用する。  
 
 <p align="center">
-<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/surface_fitting_algorithm2.PNG" width="30%"> <br>
+<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/surface_fitting_algorithm2.PNG" width="40%"> <br>
 Curve Fitting - Surfaceのアルゴリズム
 </P>
 
