@@ -54,7 +54,7 @@ Surfaceの選択された頂点をメンバーとする面集合の外周にあ�
 
 <p align="center">
 <img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/ends_border_points2.PNG"> <br>
-Ends weight points on the curve AND Border weight points on the surfase
+LEFT Fig.:Ends weight points on the curve AND RIGHT Fig. Border weight points on the surfase
 </P>
 
 ## アルゴリズム
