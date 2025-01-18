@@ -30,7 +30,7 @@ Properties Panel
 </p>
 
 ## Features
-CurveFitting moves vertices onto a curve or surface approximated by a polynomial calculated from the selected vertices.
+CurveFitting moves vertices onto a curve or surface approximated by a polynomial calculated from the selected vertices. Whether to fit to a curve or a surface is automatically determined based on the selected vertices.
 
 #### - Curve Degree
 "Curve Degree" in the properties panel sets the degree of the polynomial. 
