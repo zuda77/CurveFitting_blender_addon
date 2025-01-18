@@ -20,9 +20,8 @@ Blender 4.2 以降
 
 ##  使い方
 1.  並びを滑らかに整えたい頂点を選択します。このとき、頂点はedge、または、faceで結合されている必要があります。
-2.  右クリックでコンテキストメニューを開き、Curve Fittingくりっくす。
-3.  ヘッダーメニューVertex - Curve Fittingでも同様に機能を呼び出すことができます。
-5.  スクリーン左下のプロパティパネルのCurve Degreeの値を変えて、カーブや面形状をお好みに調整します。
+2.  右クリックでコンテキストメニューを開き、Curve Fittingをクリックします。または、ヘッダーメニューVertex - Curve Fittingでも機能を呼び出すことができます。
+5.  スクリーン左下のプロパティパネルの値を変えて、カーブや面形状をお好みに調整します。
 
 <p align="center">
 <img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/property_panel.PNG"> <br>
@@ -45,11 +44,18 @@ Curve Fittingは選択された頂点から算出した多項式で近似され�
 |3|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/leaf_3deg.PNG" width="45%">|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/surf_3deg2.PNG" width="45%">|![grafik](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/curve_3deg.PNG)|
 |4|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/leaf_4deg.PNG" width="45%">|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/surf_4deg2.PNG" width="45%">|![grafik](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/curve_4deg.PNG)|
 
-  
-#### - border Weight
-Curveの場合は、選択された頂点列の開始点と終点を移動しにくくする数値です。デフォルト値10です。  
-Surfaceの場合は、選択された頂点をメンバーとする面集合の外周にある点を移動しにくくする数値です。デフォルト値は1です。  
+#### - Ends Weight
+Curveの選択された頂点列の開始点と終点を移動しにくくする数値です。デフォルト値10です。  
 数値が大きくなるほど開始点と終点は移動しにくくなります。最低値は1のときは、計算された近似曲線に従って開始点と終点が移動します。
+
+#### - border Weight
+Surfaceの選択された頂点をメンバーとする面集合の外周にある点を移動しにくくする数値です。デフォルト値は1です。  
+数値が大きくなるほど開始点と終点は移動しにくくなります。最低値は1のときは、計算された近似曲線に従って開始点と終点が移動します。
+
+<p align="center">
+<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/ends_border_points.PNG"> <br>
+Ends weight points on the curve                  Border weight points on the surfase       
+</P>
 
 ## アルゴリズム
 ### Curve Fitting - Curve
