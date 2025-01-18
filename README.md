@@ -50,8 +50,8 @@ The following table shows examples when changing the degree from 1 to 4:
 - Larger values make the start and end points harder to move. The minimum value of 1 allows points to move according to the calculated approximation.
 
 <p align="center">
-<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/ends_points.PNG" width="20%"> <br>
-Ends weight points on the curve AND RIGHT
+<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/ends_points.PNG" width="25%"> <br>
+Ends weight points on the curve
 </P>
 
 #### - Border Weight
@@ -59,7 +59,7 @@ Ends weight points on the curve AND RIGHT
 - Larger values make the start and end points harder to move. The minimum value of 1 allows points to move according to the calculated approximation.
 
 <p align="center">
-<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/boder_points.PNG" width="20%"> <br>
+<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/boder_points.PNG" width="25%"> <br>
 Border weight points on the surfase
 </P>
 
