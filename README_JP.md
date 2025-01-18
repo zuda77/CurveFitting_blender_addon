@@ -53,8 +53,8 @@ Surfaceの選択された頂点をメンバーとする面集合の外周にあ�
 数値が大きくなるほど開始点と終点は移動しにくくなります。最低値は1のときは、計算された近似曲線に従って開始点と終点が移動します。
 
 <p align="center">
-<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/ends_border_points.PNG"> <br>
-Ends weight points on the curve                  Border weight points on the surfase       
+<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/ends_border_points2.PNG"> <br>
+<P></P>Ends weight points on the curve                  Border weight points on the surfase</P>     
 </P>
 
 ## アルゴリズム
