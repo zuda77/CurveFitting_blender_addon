@@ -37,7 +37,7 @@ CurveFitting moves vertices onto a curve or surface approximated by a polynomial
 Higher degrees allow for fitting more complex shapes, but the simplicity of the shape is lost. Adjust this value according to the shape of the original vertex arrangement.  
 The following table shows examples when changing the degree from 1 to 4:
 
-|Curve Degree|Vertex Model<br>Curve|Vertex Model<br>Surface|Curve Image|
+|Curve Degree|Curve verticies arrangements|Surface verticies arrangements|Curve Image|
 |:-:|:-:|:-:|:-:|
 |Before Processing<br>Original Shape|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/before.PNG" width="45%">|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/surf_before2.PNG" width="45%">|-|
 |1|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/leaf_1deg.PNG" width="45%">|<img src="https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/surf_1deg2.PNG" width="45%">|![grafik](https://github.com/zuda77/CurveFitting_blender_addon/blob/main/images/curve_1deg.PNG)|
